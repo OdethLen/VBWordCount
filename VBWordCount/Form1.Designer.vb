@@ -41,17 +41,18 @@ Partial Class Form1
         txtDocument.Location = New Point(41, 65)
         txtDocument.Multiline = True
         txtDocument.Name = "txtDocument"
+        txtDocument.ReadOnly = True
         txtDocument.Size = New Size(300, 139)
         txtDocument.TabIndex = 1
         ' 
         ' lblLargestWord
         ' 
         lblLargestWord.AutoSize = True
-        lblLargestWord.Location = New Point(275, 218)
+        lblLargestWord.Location = New Point(172, 225)
         lblLargestWord.Name = "lblLargestWord"
-        lblLargestWord.Size = New Size(41, 15)
+        lblLargestWord.Size = New Size(16, 15)
         lblLargestWord.TabIndex = 2
-        lblLargestWord.Text = "Label1"
+        lblLargestWord.Text = "..."
         ' 
         ' Form1
         ' 
